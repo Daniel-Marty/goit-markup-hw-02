@@ -23,8 +23,7 @@ body {
 .logo {
 text-decoration: none;
 font-family: Raleway;
-font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -95,7 +94,7 @@ letter-spacing: 0.06em;
 }
 
 .current {
-  background-color: red;
+  color: var(--accent-text-color);
 }
 .button.filter-button {
 color:var(--secondary-text-color);
