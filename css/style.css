@@ -163,21 +163,36 @@ letter-spacing: 0.03em;
 /*---------------------------------------------FOOTER--------------------------------------*/
 .footer {
   background-color: var(--third-background-color);
-  text-decoration: none;
 }
 .logo-footer {
 color:var(--title-text-color);
 }
+
 .footer-address {
+font-style: normal;
 color: var(--title-text-color);
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 }
 .email-phone {
-  text-decoration: none;
+font-style: normal;
 color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
 line-height: 1.71;
+letter-spacing: 0.03em;
+}
+/*---------------------------------------------PORTFOLIO--------------------------------------*/
+.portfolio-title {
+color: var(--secondary-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.portfolio-paragraph {
+color: var(--primary-text-color);
+font-size: 16px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 }
